@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site Android</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <style>
+            
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #83e0ac;
+            }
+            header {
+                background: linear-gradient(to bottom, #3cb371, #2e8b57);
+                color: white;
+                text-align: center;
+                padding: 20px 10px;
+            }
+            nav {
+                background: #2e8b57;
+                padding: 10px;
+                text-align: left;
+                box-shadow: 10px 10px 15px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+            }
+            .container {
+                width: 90%;
+                max-width: 800px;
+                margin: 20px auto;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            h2 {
+                color: #2e8b57;
+            }
+            img {
+                max-width: 100%;
+                display: block;
+                margin: 10px auto;
+            }
+            iframe {
+                width: 100%;
+                height: 300px;
+                border: none;
+            }
+            .list-custom ul {
+                list-style: none;
+                padding: 0;
+            }
+            .list-custom li::before {
+                content: "✔ ";
+                color: #2e8b57;
+            }
+            footer {
+                background: #2e8b57;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+            <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</p>
+        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale conosco</a>
+        </nav>
+        <div class="container">
+            <h2>HISTÓRIA DO MASCOTE DO ANDROID</h2>
+            <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+            <h3>A PRIMEIRA VERSÃO</h3>
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+            <img src="imagens/dan-droids.png" alt="">
+            <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+            <h3>SURGE UM NOVO MASCOTE</h3>
+            <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+            <img src="imagens/irina-blok.jpg" alt="">
+            <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+            <img src="imagens/bugdroid.png" alt="">
+            <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+            <iframe src="https://www.youtube.com/embed/video_id"></iframe>
+            <div class="list-custom">
+                <h3>Quer aprender mais?</h3>
+                <ul>
+                    <li>🔗 <a href="https://www.android.com/" target="_blank">Site oficial do Android</a></li>
+                    <li>✔ O Android foi criado pelo Google para dispositivos móveis.</li>
+                    <li>✔ Cada versão tem um nome baseado em doces!</li>
+                </ul>
+            </div>
+        </div>
+    <footer>
+        <p>&copy; 2025 - Curiosidades de Tecnologia</p>
+    </footer>
+    </body>
+</html>
